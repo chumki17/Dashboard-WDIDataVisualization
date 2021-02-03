@@ -1,0 +1,100 @@
+
+	
+	p {
+    display: block;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 0;
+    margin-right: 0;
+}
+ 
+	h2 {
+        text-align: center;
+        color: black;
+		font-family: 'Raleway', sans-serif;
+		margin-top:2cm;
+      }
+	
+	.clickbox {
+    position: absolute;
+
+	    bottom: 10px;
+ 
+
+	text-align: center;
+		}
+ 
+
+	
+   .hidden { 
+     display: none; 
+      }
+
+     
+	.country {fill:#ccc;}	
+      
+	 g.yaxis{ font-family: 'Raleway', sans-serif;}
+	  
+	 #slider3 {
+	  margin: 7px
+	  width: 5em  
+	  }
+	  
+	  
+	  
+      .center { text-align: center; }
+
+	  
+	  /* .tourtextbox {
+			position: absolute;
+			font-size: 18px;
+			left: 2%;
+			height:200px;
+			background-color:#ffe6cc;
+			top: 0px;
+			width: 30%;
+			font-family: 'Raleway', sans-serif;
+			 box-shadow: 0px 0px 40px 1px #999;
+			 opacity:0;
+		 } 
+	  */
+	 table { 
+	        margin: 20px 0 10px 30px;
+			font-family: 'Raleway', sans-serif;}
+  
+	  div.tooltip {
+		  z-index: 10000;
+		  color: #222; 
+		  background: #fff; 
+		  padding: .5em; 
+		  text-shadow: #f5f5f5 0 1px 0;
+		  border-radius: 2px; 
+		  box-shadow: 0px 0px 2px 0px #a6a6a6; 
+		  opacity: 0.9; 
+		  position: absolute;
+		   font-family: 'Raleway', sans-serif;}  	   
+		   
+	
+	#navbar {
+	  background-color: #333;
+	  position: fixed;
+	  top: -50px;
+	  width: 100%;
+	  display: block;
+	  transition: top 0.3s;
+	}
+	
+	#navbar a {
+	  float: left;
+	  display: block;
+	  color: #f2f2f2;
+	  text-align: center;
+	  padding: 15px;
+	  text-decoration: none;
+	  font-size: 17px;
+	}
+	
+	#navbar a:hover {
+	  background-color: #ddd;
+	  color: black;
+	}
